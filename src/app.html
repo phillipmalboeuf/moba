@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<style>
+			@font-face {
+				font-family: "GT America Compressed";
+				font-weight: bold;
+				src: url("%sveltekit.assets%/fonts/GT-America-Compressed-Bold.woff2") format("woff2"),
+					url("%sveltekit.assets%/fonts/GT-America-Compressed-Bold.woff") format("woff");
+				font-display: swap;
+			}
+
+			@font-face {
+				font-family: "Matter";
+				font-weight: normal;
+				src: url("%sveltekit.assets%/fonts/MatterRegular.woff2") format("woff2"),
+					url("%sveltekit.assets%/fonts/MatterRegular.woff") format("woff");
+				font-display: swap;
+			}
+
+			@font-face {
+				font-family: "Matter";
+				font-weight: bold;
+				src: url("%sveltekit.assets%/fonts/MatterSemiBold.woff2") format("woff2"),
+					url("%sveltekit.assets%/fonts/MatterSemiBold.woff") format("woff");
+				font-display: swap;
+			}
+		</style>
+
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

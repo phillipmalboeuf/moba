@@ -31,7 +31,7 @@ body {
 	background-color: $light;
 
 	@media (max-width: $mobile) {
-    // font-size: $mobile_base;
+    font-size: $s-1;
   }
 
 	.background {
@@ -88,7 +88,7 @@ h1,
 	}
 
 	@media (max-width: $mobile) {
-    font-size: $s3;
+    font-size: 18vw;
   }
 }
 
@@ -149,7 +149,7 @@ p {
 		line-height: 1.2;
 
 		@media (max-width: $mobile) {
-			font-size: calc($s1 - 2px);
+			// font-size: calc($s1 - 2px);
 			// line-height: 1.2;
 		}
 	}
@@ -587,7 +587,15 @@ strong,
 				&.col--mobile--#{$i}of#{$number_of_columns} {
 					$width:  math.div(100%, $number_of_columns) * $i;
 					$adjust: calc(var(--gap) / #{math.div($number_of_columns, $i)});
-					width: calc(#{$width} - var(--gap) + #{$adjust});
+					width: calc(#{$width} - var(--gap) + #{$adjust}) !important;
+
+					&:empty {
+						display: none;
+					}
+
+					// & + br {
+					// 	display: none;
+					// }
 				}
 			}
     }

@@ -40,8 +40,8 @@
     <h3>Comment le covoiturage fonctionne ?</h3>
     <p>L'organisation du covoiturage consiste à mettre en relation un conducteur avec un ou plusieurs passagers, peut s'effectuer de deux manières :</p>
   </div>
-  <div class="col col--6of12 col--mobile--12of12">
-    <ol class="flex flex--column flex--gapped" style="align-self: flex-end;">
+  <div class="col col--6of12 col--mobile--12of12" style="align-self: flex-end;">
+    <ol class="flex flex--column flex--gapped">
       <li class="flex flex--gapped"><Triangle position="topleft" scale={0.5} /><h4 class="col col--3of12 col--mobile--2of12">1.</h4> <p class="col col--9of12 col--mobile--10of12">Le covoiturage planifié, qui peut être organisé entre particuliers ou via des plateformes en ligne ou des applications facilitant la mise en relation entre conducteurs et passagers.</p></li>
       <li class="flex flex--gapped"><Triangle position="topleft" scale={0.5} /><h4 class="col col--3of12 col--mobile--2of12">2.</h4> <p class="col col--9of12 col--mobile--10of12">Le covoiturage spontané, basé sur l'utilisation du trafic routier comme source potentielle de transport, comprenant des pratiques telles que l'autostop organisé ou les lignes de covoiturage avec des points d'arrêt spécifiquement indiqués.</p></li>
     </ol>
@@ -135,14 +135,17 @@
       <a href="/"><Google /></a>
     </nav>
     <p>Le covoiturage facilite le déplacement au stationnement incitatif et l’utilisation du transport en commun, c’est ce que l’on appelle l’intermodalité. L’intermodalité est l’utilisation de plusieurs transports lors d’un même trajet.</p>
-    <ol class="flex flex--gapped flex--column">
-      <li class="flex flex--gapped flex--column">
+  </div>
+  <div class="col col--12of12"></div>
+  <div class="col col--12of12">
+    <ol class="flex flex--gapped flex--center" style="align-items: stretch;">
+      <li class="col col--5of12 col--mobile--12of12 flex flex--gapped flex--column">
         <p>Vous cherchez un stationnement pour covoiturer ou pour accéder au transport en commun dans les Laurentides ?</p>
-        <p><a href="https://crelaurentides.org/stationnements" class="button">crelaurentides.org/stationnements</a></p>
+        <p style="margin-top: auto;"><a href="https://crelaurentides.org/stationnements" class="button">crelaurentides.org/stationnements</a></p>
       </li>
-      <li class="flex flex--gapped flex--column">
+      <li class="col col--5of12 col--mobile--12of12 flex flex--gapped flex--column">
         <p>Pour connaître les horaires du transport adapté et collectif des Laurentides :</p>
-        <p><a href="https://transportlaurentides.ca" class="button">transportlaurentides.ca</a></p>
+        <p style="margin-top: auto;"><a href="https://transportlaurentides.ca" class="button">transportlaurentides.ca</a></p>
       </li>
     </ol>
   </div>

@@ -31,24 +31,35 @@
   </a>
 </section>
 
-<section class="padded flex flex--column flex--gapped bleu">
-  <div class="hgroup">
+<section class="padded flex flex--gapped bleu">
+  <div class="hgroup col col--8of12 col--mobile--12of12">
     <h2><span>Le covoiturage,</span> <span style="margin-left: 10%;">plus en</span> <span><Triangle position="bottomleft" />détails</span></h2>
     <h2><span>Le covoiturage,</span> <span style="margin-left: 10%;">plus en</span> <span>détails</span></h2>
   </div>
+  <div class="col col--12of12"></div>
+  <div class="col col--12of12"></div>
+  <div class="col col--12of12"></div>
+  <div class="col col--12of12"></div>
+  
+  <!-- <div class="col col--1of12 col--mobile--12of12"></div> -->
   <div class="col col--5of12 col--mobile--12of12 flex flex--column flex--gapped">
     <h3>Comment le covoiturage fonctionne ?</h3>
     <p>L'organisation du covoiturage consiste à mettre en relation un conducteur avec un ou plusieurs passagers, peut s'effectuer de deux manières :</p>
   </div>
-  <div class="col col--6of12 col--mobile--12of12" style="align-self: flex-end;">
+  <div class="col col--1of12 col--mobile--12of12"></div>
+  <div class="col col--6of12 col--mobile--12of12">
     <ol class="flex flex--column flex--gapped">
-      <li class="flex flex--gapped"><Triangle position="topleft" scale={0.5} /><h4 class="col col--3of12 col--mobile--2of12">1.</h4> <p class="col col--9of12 col--mobile--10of12">Le covoiturage planifié, qui peut être organisé entre particuliers ou via des plateformes en ligne ou des applications facilitant la mise en relation entre conducteurs et passagers.</p></li>
-      <li class="flex flex--gapped"><Triangle position="topleft" scale={0.5} /><h4 class="col col--3of12 col--mobile--2of12">2.</h4> <p class="col col--9of12 col--mobile--10of12">Le covoiturage spontané, basé sur l'utilisation du trafic routier comme source potentielle de transport, comprenant des pratiques telles que l'autostop organisé ou les lignes de covoiturage avec des points d'arrêt spécifiquement indiqués.</p></li>
+      <li class="flex flex--gapped">
+        <!-- <Triangle position="topleft" scale={0.5} /> -->
+        <h4 class="col col--2of12 col--mobile--2of12">1.</h4> <p class="col col--10of12 col--mobile--10of12">Le covoiturage planifié, qui peut être organisé entre particuliers ou via des plateformes en ligne ou des applications facilitant la mise en relation entre conducteurs et passagers.</p></li>
+      <li class="flex flex--gapped">
+        <!-- <Triangle position="topleft" scale={0.5} /> -->
+        <h4 class="col col--2of12 col--mobile--2of12">2.</h4> <p class="col col--10of12 col--mobile--10of12">Le covoiturage spontané, basé sur l'utilisation du trafic routier comme source potentielle de transport, comprenant des pratiques telles que l'autostop organisé ou les lignes de covoiturage avec des points d'arrêt spécifiquement indiqués.</p></li>
     </ol>
   </div>
   <hr>
-  <h3 class="col col--5of12 col--mobile--12of12" style="align-self: center; text-align: center;">Quelques statistiques sur le transport ?</h3>
-  <br>
+  <h3 class="col col--5of12 col--mobile--12of12" style="margin: 0 auto; text-align: center;">Quelques statistiques sur le transport ?</h3>
+  <div class="col col--12of12"></div>
   <ol class="flex flex--gapped">
     <li class="col col--4of12 col--mobile--12of12 flex flex--column flex--gapped">
       <p>43 % des émissions de GES proviennent du secteur des transports.</p>
@@ -78,7 +89,7 @@
     <h2><span>Les avantages</span> <span>du</span> <span>covoiturage</span></h2>
   </div>
 
-  <h3 class="col col--6of12 col--mobile--12of12" style="align-self: flex-end;">Pour l'usager, le covoiturage offre plusieurs avantages&nbsp;:</h3>
+  <h3 class="col col--6of12 col--mobile--12of12" style="align-self: center; text-align: center;">Pour l'usager, le covoiturage offre plusieurs avantages&nbsp;:</h3>
   <br>
   <ol class="flex flex--gapped flex--bottom">
     <li class="col col--4of12 col--mobile--12of12">
@@ -100,24 +111,24 @@
     </li>
   </ol>
   <hr>
-  <h3 class="col col--6of12 col--mobile--12of12">Pour la collectivité, le covoiturage permet de :</h3>
+  <h3 class="col col--6of12 col--mobile--12of12" style="align-self: center; text-align: center;">Pour la collectivité, le covoiturage permet de :</h3>
   <br>
-  <ol class="flex flex--gapped flex--bottom">
-    <div class="col col--6of12 col--mobile--12of12"></div>
+  <ol class="flex flex--gapped flex--center flex--bottom">
+    <div class="col col--4of12 col--mobile--12of12"></div>
     <li class="col col--4of12 col--mobile--12of12">
       <p>Réduire la congestion routière.</p>
     </li>
-    <div class="col col--2of12 col--mobile--12of12"></div>
-    <div class="col col--3of12 col--mobile--12of12"></div>
-    <li class="col col--4of12 col--mobile--12of12">
-      <p>Diminuer les investissements liés à l’entretien des routes, permettant ainsi de réorienter les fonds vers des projets de mobilité durable.</p>
-    </li>
+    <div class="col col--4of12 col--mobile--12of12"></div>
+    <div class="col col--1of12 col--mobile--12of12"></div>
     <li class="col col--4of12 col--mobile--12of12">
       <p>Réduire la pollution atmosphérique dans les grandes villes.</p>
     </li>
-    <div class="col col--6of12 col--mobile--12of12"></div>
     <li class="col col--4of12 col--mobile--12of12">
       <p>Déplacements plus rapides en échappant à la congestion grâce aux voies réservées.</p>
+    </li>
+    <div class="col col--1of12 col--mobile--12of12"></div>
+    <li class="col col--4of12 col--mobile--12of12">
+      <p>Diminuer les investissements liés à l’entretien des routes, permettant ainsi de réorienter les fonds vers des projets de mobilité durable.</p>
     </li>
   </ol>
 </section>

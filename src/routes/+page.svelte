@@ -174,12 +174,12 @@
     <div class="col col--2of12 col--mobile--12of12"></div>
 
     <p class="col col--2of12 col--mobile--12of12">En partenariat avec</p>
-    <figure class="col col--4of12 col--mobile--12of12 flex flex--gapped">
-      <img class="col col--6of12" src="/icons/moba.svg" alt="MOBA">
-      <img class="col col--6of12" src="/icons/moba.svg" alt="MOBA">
-      <img class="col col--6of12" src="/icons/moba.svg" alt="MOBA">
-      <img class="col col--6of12" src="/icons/moba.svg" alt="MOBA">
-      <img class="col col--6of12" src="/icons/moba.svg" alt="MOBA">
+    <figure class="partenariats col col--4of12 col--mobile--12of12 flex flex--gapped flex--middle">
+      <img class="col col--6of12" src="/logos/TACL-logo 1.png" alt="TACL">
+      <img class="col col--6of12" src="/logos/logos Tacal 1.png" alt="TACAL">
+      <img class="col col--6of12" src="/logos/nouveaulogo2 1.png" alt="CRE Laurentides">
+      <img class="col col--6of12" src="/logos/MRC_RDN_LOGO2005 1.png" alt="MRC de la Rivière du Nord">
+      <img class="col col--6of12" src="/logos/MRCArg_RGB_300dpi_transparent 1.png" alt="MRC d'Argenteuil">
     </figure>
   </div>
 
@@ -305,6 +305,12 @@
 
       nav.flex--end {
         justify-content: flex-start;
+      }
+    }
+
+    .partenariats {
+      img {
+        padding-right: $s0;
       }
     }
   }

@@ -138,9 +138,9 @@
     <h2><span>Applications</span> <span><Triangle position="bottomleft" />Allons</span></h2>
     <h2><span>Applications</span> <span>Allons</span></h2>
   </div>
-  <div class="col col--1of12 col--mobile--12of12"></div>
+  <!-- <div class="col col--1of12 col--mobile--12of12"></div> -->
   <div class="col col--5of12 col--mobile--12of12 flex flex--gapped flex--column">
-    <h3>Pour trouver un partenaire de covoiturage téléchargez l’application gratuitement</h3>
+    <h3>Pour trouver un partenaire de covoiturage téléchargez l'application gratuitement jusqu'au 15 décembre 2024 avec le code : Laurentides.</h3>
     <nav>
       <a href="/"><Apple /></a>
       <a href="/"><Google /></a>
@@ -196,9 +196,9 @@
       <a href="#top" class="button">Haut de la page</a>
     </div>
     <nav class="col col--6of12 col--mobile--12of12 flex flex--gapped flex--end">
-      <a href="https://www.facebook.com/ExcellenceindustrielleSaintLaurent/?_rdr"><u>Facebook</u></a>
-      <a href="https://ca.linkedin.com/company/excellence-industrielle-saint-laurent"><u>LinkedIn</u></a>
-      <a href="https://www.youtube.com/channel/UCMXwHOUI2CLXdBiBRFuTL1w"><u>Youtube</u></a>
+      <a href="https://www.facebook.com/MOBA.mobilite.alternative"><u>Facebook</u></a>
+      <!-- <a href="https://ca.linkedin.com/company/excellence-industrielle-saint-laurent"><u>LinkedIn</u></a>
+      <a href="https://www.youtube.com/channel/UCMXwHOUI2CLXdBiBRFuTL1w"><u>Youtube</u></a> -->
     </nav>
   </div>
 </footer>

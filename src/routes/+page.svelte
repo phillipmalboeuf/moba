@@ -63,23 +63,24 @@
   <ol class="flex flex--gapped">
     <li class="col col--4of12 col--mobile--12of12 flex flex--column flex--gapped">
       <p>43 % des émissions de GES proviennent du secteur des transports.</p>
-      <p><a href="/" class="button">Source</a></p>
+      <!-- <p><a href="/" class="button">Source</a></p> -->
     </li>
     <li class="col col--4of12 col--mobile--12of12 flex flex--column flex--gapped">
       <p>92 % des déplacements de navettage dans les Laurentides sont effectués en auto.</p>
-      <p><a href="/" class="button">Source</a></p>
+      <!-- <p><a href="/" class="button">Source</a></p> -->
     </li>
     <li class="col col--4of12 col--mobile--12of12 flex flex--column flex--gapped">
       <p>L’achalandage routier y est concentré dans un faible nombre de corridors routiers.</p>
-      <p><a href="/" class="button">Source</a></p>
+      <!-- <p><a href="/" class="button">Source</a></p> -->
     </li>
     <li class="col col--4of12 col--mobile--12of12 flex flex--column flex--gapped">
       <p>Faible taux d’occupation : à peine 1,2 personne en moyenne par véhicule.</p>
-      <p><a href="/" class="button">Source</a></p>
+      <!-- <p><a href="/" class="button">Source</a></p> -->
     </li>
     <li class="col col--4of12 col--mobile--12of12 flex flex--column flex--gapped">
       <p>« Ce n’est pas les personnes qui créent la congestion, c’est le vide ! »</p>
-      <p><a href="/" class="button">Catherine Morency, Polytechnique Montréal</a></p>
+      <!-- <p><a href="/" class="button">Catherine Morency, Polytechnique Montréal</a></p> -->
+      <p><small>Catherine Morency, Polytechnique Montréal</small></p>
     </li>
   </ol>
 </section>

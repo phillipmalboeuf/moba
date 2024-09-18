@@ -88,7 +88,7 @@ h1,
 	}
 
 	@media (max-width: $mobile) {
-    font-size: 18vw;
+    font-size: 17vw;
   }
 }
 
@@ -165,6 +165,10 @@ blockquote {
 
 small {
 	font-size: $s-1;
+
+	@media (max-width: $mobile) {
+		font-size: $s-2;
+	}
 
 	&.sub,
 	&.sup {

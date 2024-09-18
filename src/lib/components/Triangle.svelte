@@ -14,18 +14,36 @@
     object-fit: cover;
     transform-origin: top center;
 
+    @media (max-width: $mobile) {
+      width: 15vw;
+    }
+
     &.big {
       width: 25vw;
+
+      @media (max-width: $mobile) {
+        width: 15vw;
+      }
     }
 
     &.topleft {
       top: 0;
       right: calc(100% - 1px);
+
+      @media (max-width: $mobile) {
+        top: 100%;
+        right: auto;
+        left: calc(0% - $s-2);
+      }
     }
 
     &.bottomleft {
       top: 100%;
       left: calc(0% - $s-1);
+
+      @media (max-width: $mobile) {
+        left: calc(0% - $s-2);
+      }
     }
   }
 </style>

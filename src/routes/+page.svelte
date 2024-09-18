@@ -32,13 +32,13 @@
 </section>
 
 <section class="padded flex flex--gapped bleu">
-  <div class="hgroup col col--8of12 col--mobile--12of12">
-    <h2><span>Le covoiturage,</span> <span style="margin-left: 10%;">plus en</span> <span><Triangle position="bottomleft" />détails</span></h2>
-    <h2><span>Le covoiturage,</span> <span style="margin-left: 10%;">plus en</span> <span>détails</span></h2>
+  <div class="hgroup hgroup--bottom col col--8of12 col--mobile--12of12">
+    <h2><span>Le covoiturage,</span> <span><Triangle position="bottomleft" />plus en détails</span></h2>
+    <h2><span>Le covoiturage,</span> <span>plus en détails</span></h2>
   </div>
+  <!-- <div class="col col--12of12"></div>
   <div class="col col--12of12"></div>
-  <div class="col col--12of12"></div>
-  <div class="col col--12of12"></div>
+  <div class="col col--12of12"></div> -->
   <div class="col col--12of12"></div>
   
   <!-- <div class="col col--1of12 col--mobile--12of12"></div> -->
@@ -58,7 +58,7 @@
     </ol>
   </div>
   <hr>
-  <h3 class="col col--5of12 col--mobile--12of12" style="margin: 0 auto; text-align: center;">Quelques statistiques sur le transport ?</h3>
+  <h3 class="col col--5of12 col--mobile--12of12 center">Quelques statistiques sur le transport ?</h3>
   <div class="col col--12of12"></div>
   <ol class="flex flex--gapped">
     <li class="col col--4of12 col--mobile--12of12 flex flex--column flex--gapped">
@@ -85,11 +85,11 @@
 </section>
 <section class="padded flex flex--column flex--gapped vert">
   <div class="hgroup col col--7of12 col--mobile--12of12">
-    <h2><span>Les avantages</span> <span>du</span> <span><Triangle position="bottomleft" />covoiturage</span></h2>
-    <h2><span>Les avantages</span> <span>du</span> <span>covoiturage</span></h2>
+    <h2><span>Les avantages</span> <span><Triangle position="bottomleft" />du covoiturage</span></h2>
+    <h2><span>Les avantages</span> <span>du covoiturage</span></h2>
   </div>
 
-  <h3 class="col col--6of12 col--mobile--12of12" style="align-self: center; text-align: center;">Pour l'usager, le covoiturage offre plusieurs avantages&nbsp;:</h3>
+  <h3 class="col col--6of12 col--mobile--12of12 center">Pour l'usager, le covoiturage offre plusieurs avantages&nbsp;:</h3>
   <br>
   <ol class="flex flex--gapped flex--bottom">
     <li class="col col--4of12 col--mobile--12of12">
@@ -111,7 +111,7 @@
     </li>
   </ol>
   <hr>
-  <h3 class="col col--6of12 col--mobile--12of12" style="align-self: center; text-align: center;">Pour la collectivité, le covoiturage permet de :</h3>
+  <h3 class="col col--6of12 col--mobile--12of12 center">Pour la collectivité, le covoiturage permet de :</h3>
   <br>
   <ol class="flex flex--gapped flex--center flex--bottom">
     <div class="col col--4of12 col--mobile--12of12"></div>
@@ -272,6 +272,14 @@
       }
     }
 
+    .center {
+      @media (min-width: $mobile) {
+        margin: 0 auto;
+        text-align: center;
+        align-self: center;
+      }
+    }
+
     .cta {
       position: absolute;
       bottom: $s0;
@@ -323,11 +331,17 @@
       width: 100%;
     }
 
+    &.hgroup--bottom {
+      @media (min-width: $mobile) {
+        margin-bottom: $s5;
+      }
+    }
+
     h1, h2 {
       display: flex;
       width: 100%;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
 
       &:last-child {
         position: absolute;
@@ -342,7 +356,7 @@
 
       @media (max-width: $mobile) {
         span {
-          outline-width: $s-1 !important;
+          outline-width: $s-2 !important;
         }
       }
     }

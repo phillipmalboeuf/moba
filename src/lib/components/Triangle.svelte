@@ -15,7 +15,7 @@
     transform-origin: top center;
 
     @media (max-width: $mobile) {
-      width: 15vw;
+      width: 13vw;
     }
 
     &.big {
@@ -31,18 +31,19 @@
       right: calc(100% - 1px);
 
       @media (max-width: $mobile) {
-        top: 100%;
         right: auto;
-        left: calc(0% - $s-2);
+        top: calc(100% + 6px);
+        left: calc(0% - 13px);
       }
     }
 
     &.bottomleft {
-      top: 100%;
-      left: calc(0% - $s-1);
+      top: calc(100% + 12px);
+      left: calc(0% - 10px);
 
       @media (max-width: $mobile) {
-        left: calc(0% - $s-2);
+        top: calc(100% + 6px);
+        left: calc(0% - 13px);
       }
     }
   }

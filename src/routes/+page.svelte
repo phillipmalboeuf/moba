@@ -143,8 +143,8 @@
   <div class="col col--5of12 col--mobile--12of12 flex flex--gapped flex--column">
     <h3>Pour trouver un partenaire de covoiturage téléchargez l'application gratuitement jusqu'au 15 décembre 2024 avec le code : Laurentides.</h3>
     <nav>
-      <a href="/"><Apple /></a>
-      <a href="/"><Google /></a>
+      <a href="https://apps.apple.com/fr/app/allons-covoiturage/id6464687570" target="_blank" rel="external"><Apple /></a>
+      <a href="https://play.google.com/store/apps/details?id=com.allons.app" target="_blank" rel="external"><Google /></a>
     </nav>
     <p>Le covoiturage facilite le déplacement au stationnement incitatif et l’utilisation du transport en commun, c’est ce que l’on appelle l’intermodalité. L’intermodalité est l’utilisation de plusieurs transports lors d’un même trajet.</p>
   </div>

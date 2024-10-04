@@ -44,7 +44,7 @@
   <!-- <div class="col col--1of12 col--mobile--12of12"></div> -->
   <div class="col col--5of12 col--mobile--12of12 flex flex--column flex--gapped">
     <h3>Comment le covoiturage fonctionne-t-il ?</h3>
-    <p>L'organisation du covoiturage consiste à mettre en relation un conducteur avec un ou plusieurs passagers, peut s'effectuer de deux manières :</p>
+    <p>L'organisation du covoiturage consiste à mettre en relation un conducteur avec un ou plusieurs passagers, il peut s'effectuer de deux manières :</p>
   </div>
   <div class="col col--1of12 col--mobile--12of12"></div>
   <div class="col col--6of12 col--mobile--12of12">

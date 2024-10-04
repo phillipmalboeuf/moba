@@ -43,7 +43,7 @@
   
   <!-- <div class="col col--1of12 col--mobile--12of12"></div> -->
   <div class="col col--5of12 col--mobile--12of12 flex flex--column flex--gapped">
-    <h3>Comment le covoiturage fonctionne ?</h3>
+    <h3>Comment le covoiturage fonctionne-t-il ?</h3>
     <p>L'organisation du covoiturage consiste à mettre en relation un conducteur avec un ou plusieurs passagers, peut s'effectuer de deux manières :</p>
   </div>
   <div class="col col--1of12 col--mobile--12of12"></div>
@@ -94,7 +94,7 @@
   <br>
   <ol class="flex flex--gapped flex--bottom">
     <li class="col col--4of12 col--mobile--12of12">
-      <p>Augmenter son pouvoir d’achat :<br>un partageant les trajets quotidiennement avec un voisin ou un collègue peut réaliser des économies significatives.</p>
+      <p>Augmenter son pouvoir d’achat :<br>en partageant ses trajets quotidiens avec un voisin ou un collègue, on peut réaliser des économies significatives.</p>
     </li>
     <li class="col col--4of12 col--mobile--12of12">
       <p>Économie sur les coûts d’utilisation de son véhicule</p>
@@ -114,7 +114,7 @@
   <hr>
   <h3 class="col col--6of12 col--mobile--12of12 center">Pour la collectivité, le covoiturage permet de :</h3>
   <br>
-  <ol class="flex flex--gapped flex--center flex--bottom">
+  <ol class="flex flex--gapped flex--center">
     <div class="col col--4of12 col--mobile--12of12"></div>
     <li class="col col--4of12 col--mobile--12of12">
       <p>Réduire la congestion routière.</p>
@@ -124,10 +124,7 @@
     <li class="col col--4of12 col--mobile--12of12">
       <p>Réduire la pollution atmosphérique dans les grandes villes.</p>
     </li>
-    <li class="col col--4of12 col--mobile--12of12">
-      <p>Déplacements plus rapides en échappant à la congestion grâce aux voies réservées.</p>
-    </li>
-    <div class="col col--1of12 col--mobile--12of12"></div>
+    <!-- <div class="col col--1of12 col--mobile--12of12"></div> -->
     <li class="col col--4of12 col--mobile--12of12">
       <p>Diminuer les investissements liés à l’entretien des routes, permettant ainsi de réorienter les fonds vers des projets de mobilité durable.</p>
     </li>
@@ -197,7 +194,7 @@
       <a href="#top" class="button">Haut de la page</a>
     </div>
     <nav class="col col--6of12 col--mobile--12of12 flex flex--gapped flex--end">
-      <a href="https://www.facebook.com/MOBA.mobilite.alternative"><u>Facebook</u></a>
+      <a href="https://www.facebook.com/profile.php?id=61566437840915" target="_blank" rel="external"><u>Facebook</u></a>
       <!-- <a href="https://ca.linkedin.com/company/excellence-industrielle-saint-laurent"><u>LinkedIn</u></a>
       <a href="https://www.youtube.com/channel/UCMXwHOUI2CLXdBiBRFuTL1w"><u>Youtube</u></a> -->
     </nav>

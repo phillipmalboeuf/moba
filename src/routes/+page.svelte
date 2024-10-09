@@ -97,7 +97,7 @@
       <p>Augmenter son pouvoir d’achat :<br>en partageant ses trajets quotidiens avec un voisin ou un collègue, on peut réaliser des économies significatives.</p>
     </li>
     <li class="col col--4of12 col--mobile--12of12">
-      <p>Économie sur les coûts d’utilisation de son véhicule</p>
+      <p>Économiser sur les coûts d’utilisation de son véhicule</p>
     </li>
     <div class="col col--4of12 col--mobile--12of12"></div>
     <div class="col col--2of12 col--mobile--12of12"></div>
@@ -108,7 +108,7 @@
       <p>Se déplacer plus librement : le covoiturage crée une solution de mobilité partagée dans les zones dépourvues de transport en commun, tout en étant solidaires en offrant un moyen de transport à ceux qui n'ont pas de voiture ou ne peuvent pas conduire.</p>
     </li>
     <li class="col col--4of12 col--mobile--12of12" style="margin-left: auto;">
-      <p>Déplacements plus rapides en échappant à la congestion grâce aux voies réservées.</p>
+      <p>Se déplacer plus rapidement en échappant à la congestion grâce aux voies réservées.</p>
     </li>
   </ol>
   <hr>
@@ -155,6 +155,18 @@
       <li class="col col--5of12 col--mobile--12of12 flex flex--gapped flex--column">
         <p>Pour connaître les horaires du transport adapté et collectif des Laurentides :</p>
         <p style="margin-top: auto;"><a href="https://transportlaurentides.ca" class="button">transportlaurentides.ca</a></p>
+      </li>
+      <li class="col col--5of12 col--mobile--12of12 flex flex--gapped flex--column">
+        <p>Pour connaître les horaires du transport adapté et collectif de la MRC d'Argenteuil :</p>
+        <p style="margin-top: auto;"><a href="https://argenteuil.qc.ca/services/transport-adapte-et-collectif/circuit-argenteuil-saint-jerome/" class="button">argenteuil.qc.ca</a></p>
+      </li>
+      <li class="col col--5of12 col--mobile--12of12 flex flex--gapped flex--column">
+        <p>Pour connaître les horaires du transport adapté et collectif de la MRC d'Antoine-Labelle :</p>
+        <p style="margin-top: auto;"><a href="https://tacal.ca/" class="button">tacal.ca</a></p>
+      </li>
+      <li class="col col--5of12 col--mobile--12of12 flex flex--gapped flex--column">
+        <p>Pour connaître les horaires du transport adapté et collectif de la MRC Rivière-du-Nord :</p>
+        <p style="margin-top: auto;"><a href="https://tacrdn.ca/" class="button">tacrdn.ca</a></p>
       </li>
     </ol>
   </div>

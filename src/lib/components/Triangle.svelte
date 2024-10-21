@@ -19,7 +19,7 @@
     }
 
     &.big {
-      width: 25vw;
+      width: 20vw;
 
       @media (max-width: $mobile) {
         width: 15vw;

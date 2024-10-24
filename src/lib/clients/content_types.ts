@@ -16,6 +16,8 @@ export function isTypeLienDeNavigation<Modifiers extends ChainModifiers, Locales
 export interface TypeNavigationFields {
     id: EntryFieldTypes.Symbol;
     liens?: EntryFieldTypes.Array<EntryFieldTypes.EntryLink<TypeLienDeNavigationSkeleton>>;
+    logos?: EntryFieldTypes.Array<EntryFieldTypes.AssetLink>;
+    partnenaires?: EntryFieldTypes.Array<EntryFieldTypes.AssetLink>;
 }
 
 export type TypeNavigationSkeleton = EntrySkeletonType<TypeNavigationFields, "navigation">;
@@ -30,7 +32,7 @@ export interface TypePageFields {
     id: EntryFieldTypes.Symbol;
     description?: EntryFieldTypes.Text;
     contenu?: EntryFieldTypes.Array<EntryFieldTypes.EntryLink<TypeSectionSkeleton>>;
-    basDePage: EntryFieldTypes.Text;
+    basDePage?: EntryFieldTypes.Text;
 }
 
 export type TypePageSkeleton = EntrySkeletonType<TypePageFields, "page">;
@@ -44,8 +46,8 @@ export interface TypeSectionFields {
     titre?: EntryFieldTypes.Symbol;
     id?: EntryFieldTypes.Symbol;
     couleur?: EntryFieldTypes.Symbol<"blanc" | "bleu" | "jaune" | "orange" | "vert">;
-    corps?: EntryFieldTypes.RichText;
     droite?: EntryFieldTypes.Boolean;
+    corps?: EntryFieldTypes.RichText;
 }
 
 export type TypeSectionSkeleton = EntrySkeletonType<TypeSectionFields, "section">;

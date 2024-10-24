@@ -51,21 +51,23 @@
     <hr>
     <p class="col col--2of12 col--mobile--12of12">Projet réalisé par</p>
     <figure class="col col--2of12 col--mobile--6of12">
-      <img src="/icons/moba.svg" alt="MOBA">
+      <!-- <img src="/icons/moba.svg" alt="MOBA"> -->
+      {#each footer.fields.logos as logo}
+        <img class="col col--12of12" src={logo.fields.file.url} alt={logo.fields.title}>
+      {/each}
     </figure>
 
     <div class="col col--2of12 col--mobile--12of12"></div>
 
     <p class="col col--2of12 col--mobile--12of12">En partenariat avec</p>
     <figure class="partenariats col col--4of12 col--mobile--12of12 flex flex--gapped flex--middle">
-      <img class="col col--6of12" src="/logos/TACL-logo 1.png" alt="TACL">
-      <img class="col col--6of12" src="/logos/logos Tacal 1.png" alt="TACAL">
-      <img class="col col--6of12" src="/logos/nouveaulogo2 1.png" alt="CRE Laurentides">
-      <img class="col col--6of12" src="/logos/MRC_RDN_LOGO2005 1.png" alt="MRC de la Rivière du Nord">
-      <img class="col col--6of12" src="/logos/MRCArg_RGB_300dpi_transparent 1.png" alt="MRC d'Argenteuil">
+      {#each footer.fields.partnenaires as partenaire}
+        <img class="col col--6of12" src={partenaire.fields.file.url} alt={partenaire.fields.title}>
+      {/each}
     </figure>
   </div>
 
+  {#if page.fields.basDePage?.length}
   <div class="flex flex--gapped padded">
     <hr>
     <p class="col col--2of12 col--mobile--12of12">{page.fields.basDePage}</p>
@@ -73,6 +75,7 @@
       <img src="/icons/quebec.svg" alt="MOBA">
     </figure>
   </div>
+  {/if}
 
   <div class="flex flex--gapped flex--middle padded">
     <div class="col col--6of12 col--mobile--12of12">

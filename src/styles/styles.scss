@@ -471,6 +471,10 @@ strong,
 	font-family: $heading_font;
 }
 
+iframe {
+	max-width: 100%;
+}
+
 
 [id] {
 	scroll-margin-top: 0;
